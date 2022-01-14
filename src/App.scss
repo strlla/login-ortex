@@ -1,0 +1,17 @@
+:root {
+  --main-dark: #191919;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI";
+  background-color: var(--main-dark);
+  height: 100%;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+}
