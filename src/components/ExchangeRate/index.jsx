@@ -6,7 +6,7 @@ const ExchangeRate = ({ closeModal }) => {
   const [time, setTime] = useState(null);
   const [euroPrice, setEuroPrice] = useState(null);
   const { sendMessage, lastMessage, readyState } = useWebSocket(
-    "ws://stream.tradingeconomics.com/?client=guest:guest"
+    "wss://stream.tradingeconomics.com/?client=guest:guest"
   );
 
   const connectionStatus = {
