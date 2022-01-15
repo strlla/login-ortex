@@ -56,8 +56,8 @@ const ExchangeRate = ({ closeModal }) => {
         {readyState === ReadyState.CONNECTING
           ? "Connecting..."
           : euroPrice || "Not available"}
-        {time}
       </p>
+      <p>{time}</p>
       <p id="current-status">Current status: {connectionStatus}</p>
     </Modal>
   );
