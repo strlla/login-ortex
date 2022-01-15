@@ -30,7 +30,7 @@ main {
     background-color: white;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: black 2px -1px 2px 0px;
+    box-shadow: var(--light-gray) 0px 0px 7px 0px;
 
     @media only screen and (min-width: 800px) {
       flex-direction: row;
