@@ -11,4 +11,4 @@ npm start
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Deploy
-Deployed [https://login-ortex.netlify.app/](here)
+Deployed [here](https://login-ortex.netlify.app)
